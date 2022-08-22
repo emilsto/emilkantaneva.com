@@ -1,15 +1,20 @@
 import Image from "next/image";
-import EmilProfilePic from "../../images/emil_large.jpg";
+import Navbar from "../navbar";
+import styles from "./aboutme.module.css";
+import EmilProfilePic from "../../images/emil2.jpeg";
+import EmilPixel from "../../images/emilpxl.png";
+
 
 const AboutMe = () => {
   return (
-    <div className="max-w-2xl flex flex-col">
+    <div className="">
+    <div className="max-w-3xl flex flex-col">
 
 
 <div className="flex justify-center mt-16">
 
-<h2 className="text-4xl tracking-[0.8em]">
-              Emil Kantaneva <br></br>
+<h2 className="text-4xl t md:tracking-[0.9em]">
+              EMIL KANTANEVA <br></br>
               </h2>
 </div>
 <div className="flex justify-center my-8">
@@ -35,21 +40,27 @@ const AboutMe = () => {
 
         </div>
 
-        <div className="rounded-full">
+        <div className="w-50 h-50 relative bg-black rounded-md text-left opacity-75 my-16 pb-2 drop-shadow-xl">
+        <div className="flex flex-row relative bg-slate-500 rounded-t opacity-100 py-2 mb-2">
+        <div className="relative h-3 w-3 rounded-full bg-mac-red ml-2">
+        </div>
+        <div className="relative h-3 w-3 rounded-full bg-mac-yellow ml-1">
+        </div>
+        <div className="relative h-3 w-3 rounded-full bg-mac-green ml-1">
         </div>
 
-        <div className="w-50 h-50 relative bg-black rounded-md text-left opacity-50 my-16 py-0">
-        <div className="relative bg-slate-500 rounded-md text-left opacity-75 py-2 mb-2">
         </div>
-            <p className="pl-5">$echo Hello! I am Web Developer! </p>
-            <p className="text-green pl-5">$echo Check out my Works here!</p>
-            <p className="text-green pl-5">$echo Check out my Resume here!</p>
-            <p className="text-green pl-5">$echo Contact me here!</p>
-            <p className="text-green pl-5">$echo My GitHub profile</p>
-            <p className="text-green pl-5">$echo My LinkedIn profile</p>
+        <div className="transition-opacity ease-in duration-700 opacity-100 font-mono text-lg">
+            <p className={styles.typing}>$ gcc aboutme.cp  && ./a.out</p>
+            <p className="">Hello! My name is Emil</p>
+            <p className="">Contact me here!</p>
+            <p className="">My GitHub profile</p>
+            <p className="">My LinkedIn profile</p>
+            </div>
         </div>
 
 
+    </div>
     </div>
   );
 };

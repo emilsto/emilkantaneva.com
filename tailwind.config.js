@@ -10,6 +10,9 @@ module.exports = {
         'rhytm': '#767B91',
         'nice-yellow': '#fca311',
         'nice-blue': '#003049',
+        'mac-yellow': '#FFBD44',
+        'mac-red': '#FF605C',
+        'mac-green': '#00CA4E', 
 
     },
   },
