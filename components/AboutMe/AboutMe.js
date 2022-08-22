@@ -18,7 +18,7 @@ import javabadge from "../../assets/java-badge.svg";
 const AboutMe = () => {
   return (
     <div className="">
-      <div className="max-w-3xl flex flex-col">
+      <div className="max-w-3xl flex flex-col mx-8">
         <div className="flex justify-center mt-16">
           <h2 className="text-4xl t md:tracking-[0.9em]">
             EMIL KANTANEVA <br></br>
@@ -44,7 +44,7 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="w-50 h-50 relative bg-black rounded-md text-left opacity-75 my-16 pb-2 drop-shadow-xl">
+        <div className="w-50 h-50 relative bg-black rounded-md text-left opacity-75 my-16 pb-2 drop-shadow-xl ">
           <div className="flex flex-row relative bg-slate-500 rounded-t opacity-100 py-2 mb-2">
             <div className="relative h-3 w-3 rounded-full bg-mac-red ml-2"></div>
             <div className="relative h-3 w-3 rounded-full bg-mac-yellow ml-1"></div>
