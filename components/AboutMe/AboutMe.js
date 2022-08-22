@@ -63,7 +63,7 @@ const AboutMe = () => {
         </div>
 
         <div className="flex flex-col mt-16">
-          <h2 className="text-4xl tracking-[0.3em] mb-2">WORKS</h2>
+          <h2 className="text-4xl mb-2">WORKS</h2>
           <div className="mb-16">
             <p>
               Here I tell about the projects I have worked on, and projects that
@@ -75,12 +75,12 @@ const AboutMe = () => {
             </p>
           </div>
 
-          <h2 className="text-4xl tracking-[0.3em] mb-2">MY TECH STACK</h2>
+          <h2 className="text-4xl mb-2">MY TECH STACK</h2>
           <div>
             <p className="mb-2">
                 Here are some of the technologies I have used in my works.
             </p>
-            <div className="flex flex-row">
+            <div className="flex flex-row mb-12">
             <Image src={jsbadge} alt="javascript badge" className=""></Image>
             <Image src={htmlbadge} alt="html badge"></Image>
             <Image src={cssbadge} alt="css badge"></Image>
@@ -91,11 +91,11 @@ const AboutMe = () => {
             <Image src={cppbadge} alt="cpp badge"></Image>
             <Image src={pythonbadge} alt="python badge"></Image>
             <Image src={javabadge} alt="java badge"></Image>
-
             </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 };
