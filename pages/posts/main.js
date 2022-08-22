@@ -1,5 +1,4 @@
 import Head from "next/head";
-import AboutMe from "../../components/AboutMe/AboutMe";
 
 const Main = () => {
   return (
@@ -9,7 +8,6 @@ const Main = () => {
         <title>Emil Kantaneva</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
       </Head>
-      <AboutMe />
     </div>
   );
 };
