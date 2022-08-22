@@ -13,17 +13,17 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="ml-5 hover:text-red-600">
-            <Link href="/posts">
+            <Link href="/underconstruction">
               <a>About</a>
             </Link>
           </div>
           <div className="ml-5 hover:text-red-600">
-            <Link href="/about">
+            <Link href="/underconstruction">
               <a>Works</a>
             </Link>
           </div>
           <div className="ml-5 hover:text-red-600">
-            <Link href="/blog">
+            <Link href="/underconstruction">
               <a>Blog</a>
             </Link>
           </div>
