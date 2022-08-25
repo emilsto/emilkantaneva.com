@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./aboutme.module.css";
+import IntroBox from "./introbox";
 import EmilProfilePic from "../../images/emil2.jpeg";
 import cssbadge from "../../assets/css-badge.svg";
 import htmlbadge from "../../assets/html-badge.svg";
@@ -19,13 +19,14 @@ const AboutMe = () => {
   return (
     <div className="">
       <div className="max-w-3xl flex flex-col mx-8">
-        <div className="flex justify-center mt-16">
+      <div className="h-screen mb-2">
+        <div className="flex justify-center md:mt-16 my:mt-8">
           <h2 className="text-4xl t md:tracking-[0.9em]">
             EMIL KANTANEVA <br></br>
           </h2>
         </div>
-        <div className="flex justify-center my-8">
-          <div className="h-64 w-64 relative rounded-full border-solid border-2 border-white">
+        <div className="flex justify-center md:my-8 my-4">
+          <div className="md:h-64 md:w-64 h-32 w-32 relative rounded-full border-solid border-2 border-white">
             <Image
               src={EmilProfilePic}
               alt="Picture of the author"
@@ -44,27 +45,15 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="w-50 h-50 relative bg-black rounded-md text-left opacity-75 my-8 pb-2 drop-shadow-xl ">
-          <div className="flex flex-row relative bg-slate-500 rounded-t opacity-100 py-2 mb-2">
-            <div className="relative h-3 w-3 rounded-full bg-mac-red ml-2"></div>
-            <div className="relative h-3 w-3 rounded-full bg-mac-yellow ml-1"></div>
-            <div className="relative h-3 w-3 rounded-full bg-mac-green ml-1"></div>
-          </div>
-          <div className="transition-opacity ease-in duration-700 opacity-100 font-mono text-lg">
-            <p className={styles.typing}>$ gcc aboutme.cpp && ./a.out</p>
-            <p className={styles.aboutme}>
-              Hello! My name is Emil. <br></br>I am a web developer and an IT
-              enthusiast. <br></br>
-              Im currently a third year student at the University of applied
-              sciences in Tampere, Finland where I study Computer Science and
-              Engineering. <br></br>
-            </p>
-          </div>
-        </div>
+        <IntroBox />
+      </div>
 
-        <div className="flex flex-col mt-16">
-          <div className=" h-screen">
-          <h2 className="text-4xl mb-2" id="about">ABOUT</h2>
+
+
+
+        <div className="flex flex-col">
+          <div className="h-screen"id="about">
+          <h2 className="text-4xl mb-2 mt-16 pt-1" >ABOUT</h2>
           <div>
             <p>
               Here I tell about the projects I have worked on, and projects that
@@ -94,7 +83,7 @@ const AboutMe = () => {
           </div>
 
           <div className="h-screen">
-          <h2 className="text-4xl mb-2" id="works">WORKS</h2>
+          <h2 className="text-4xl mt-16 pt-1" id="works">WORKS</h2>
           <div className="mb-16">
             <p>
               Here I tell about the projects I have worked on, and projects that
