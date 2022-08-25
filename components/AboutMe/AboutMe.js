@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Navbar from "../navbar";
 import styles from "./aboutme.module.css";
 import EmilProfilePic from "../../images/emil2.jpeg";
 import cssbadge from "../../assets/css-badge.svg";
@@ -16,6 +15,7 @@ import javabadge from "../../assets/java-badge.svg";
 
 
 const AboutMe = () => {
+
   return (
     <div className="">
       <div className="max-w-3xl flex flex-col mx-8">
@@ -63,8 +63,9 @@ const AboutMe = () => {
         </div>
 
         <div className="flex flex-col mt-16">
-          <h2 className="text-4xl mb-2">WORKS</h2>
-          <div className="mb-16">
+          <div className=" h-screen">
+          <h2 className="text-4xl mb-2" id="about">ABOUT</h2>
+          <div>
             <p>
               Here I tell about the projects I have worked on, and projects that
               I am currently working on. There will also be links to my works! I
@@ -72,15 +73,12 @@ const AboutMe = () => {
               will be too small otherwise! Yup, even for a placeholder, It would
               be too small! I have to have lots to say when I write this out for
               real.
-            </p>
-          </div>
-
-          <h2 className="text-4xl mb-2">MY TECH STACK</h2>
-          <div>
-            <p className="mb-2">
+              </p>
+            <h2>My tech stack</h2>
+            <p>
                 Here are some of the technologies I have used in my works.
             </p>
-            <div className="flex flex-row mb-12">
+            <div>
             <Image src={jsbadge} alt="javascript badge" className=""></Image>
             <Image src={htmlbadge} alt="html badge"></Image>
             <Image src={cssbadge} alt="css badge"></Image>
@@ -93,6 +91,22 @@ const AboutMe = () => {
             <Image src={javabadge} alt="java badge"></Image>
             </div>
           </div>
+          </div>
+
+          <div className="h-screen">
+          <h2 className="text-4xl mb-2" id="works">WORKS</h2>
+          <div className="mb-16">
+            <p>
+              Here I tell about the projects I have worked on, and projects that
+              I am currently working on. There will also be links to my works! I
+              guess Ia have to type some more text here, because this text block
+              will be too small otherwise! Yup, even for a placeholder, It would
+              be too small! I have to have lots to say when I write this out for
+              real.
+            </p>
+          </div>
+          </div>
+
         </div>
       </div>
 
