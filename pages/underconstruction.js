@@ -15,7 +15,7 @@ const WorkInProgress = () => {
             </h2>
           </div>
           <div className="flex justify-center my-8">
-            <p><Link href="/" className='underline'>Return Home and check back later</Link></p> 
+            <p className="underline"><Link href="/" className="underline">Return Home and check back later</Link></p> 
           </div>
       </div>
     </div>

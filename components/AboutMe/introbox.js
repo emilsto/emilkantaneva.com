@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./aboutme.module.css";
 
 
@@ -11,14 +12,14 @@ const IntroBox = () => {
   <div className="relative h-3 w-3 rounded-full bg-mac-yellow ml-1"></div>
   <div className="relative h-3 w-3 rounded-full bg-mac-green ml-1"></div>
 </div>
-<div className="transition-opacity ease-in duration-700 opacity-100 font-mono text-lg">
-  <p className={styles.typing}>$ gcc aboutme.cpp && ./a.out</p>
+<div className="transition-opacity ease-in duration-700 opacity-100 font-mono md:text-s text-lg text-white">
+  <p className={styles.typing}>$ cd greetings && node greet.js</p>
   <p className={styles.aboutme}>
     Hello! My name is Emil. <br></br>I am a web developer and an IT
     enthusiast. <br></br>
-    Im currently a third year student at the University of applied
-    sciences in Tampere, Finland where I study Computer Science and
-    Engineering. <br></br>
+    Im a third year student at the Tampere University of applied
+    where I study software engineering. <br></br>
+    Click <Link href="/"><nobr className="text-red-500">here</nobr></Link> to see my projects, or here to see my resume.
   </p>
 </div>
 </div>

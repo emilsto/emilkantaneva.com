@@ -1,6 +1,6 @@
 .typing {
-  width: 28ch;
-  animation: typing 2s steps(28), blink 0.5s step-end infinite alternate;
+  width: 32ch;
+  animation: typing 2s steps(32), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;

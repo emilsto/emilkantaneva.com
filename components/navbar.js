@@ -12,17 +12,12 @@ const Navbar = () => {
           </div>
           <div className="ml-5 hover:text-red-600">
             <Link href="/#about">
-              <a>About</a>
+              <a>Projects</a>
             </Link>
           </div>
           <div className="ml-5 hover:text-red-600">
-            <Link href="/#works">
-              <a>Works</a>
-            </Link>
-          </div>
-          <div className="ml-5 hover:text-red-600">
-            <Link href="/underconstruction">
-              <a>Blog</a>
+            <Link href="/resume">
+              <a>Resume</a>
             </Link>
           </div>
         </div>
