@@ -13,7 +13,10 @@ module.exports = {
         "mac-yellow": "#FFBD44",
         "mac-red": "#FF605C",
         "mac-green": "#00CA4E",
+        "beige-g": "#E1C699",
+        "dark-grey": "#333333",
       },
+
     },
   },
   plugins: [],

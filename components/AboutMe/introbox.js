@@ -19,7 +19,7 @@ const IntroBox = () => {
     enthusiast. <br></br>
     Im a third year student at the Tampere University of applied
     where I study software engineering. <br></br>
-    Click <Link href="/"><nobr className="text-red-500">here</nobr></Link> to see my projects, or here to see my resume.
+    Click <Link href="/projects"><nobr className="text-red-500 cursor-pointer">here</nobr></Link> to see my projects, or <Link href="/resume"><nobr className="text-red-500 cursor-pointer">here</nobr></Link> to view my resume.
   </p>
 </div>
 </div>

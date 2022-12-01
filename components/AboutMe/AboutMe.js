@@ -1,18 +1,8 @@
 import Image from "next/image";
 import IntroBox from "./introbox";
-import Works from "./Works";
 
 import EmilProfilePic from "../../images/emil2.jpeg";
-import cssbadge from "../../assets/css-badge.svg";
-import htmlbadge from "../../assets/html-badge.svg";
-import jsbadge from "../../assets/js-badge.svg";
-import reactbadge from "../../assets/react-badge.svg";
-import nodebadge from "../../assets/node-badge.svg";
-import dockerbadge from "../../assets/docker-badge.svg";
-import cbadge from "../../assets/c-badge.svg";
-import cppbadge from "../../assets/cpp-badge.svg";
-import pythonbadge from "../../assets/python-badge.svg";
-import javabadge from "../../assets/java-badge.svg";
+
 
 
 

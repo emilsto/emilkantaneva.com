@@ -28,7 +28,7 @@ const data = [
 const Education = () => {
     return (
         <div className="flex flex-col p-5">
-        <h1 className="text-3xl tracking-[0.1em] mb-5">Education</h1>
+        <h1 className="bg-dark-grey text-4xl p-2 text-beige-g">Education</h1>
         <p className="text-l">
         </p>
         <div className="grid">
