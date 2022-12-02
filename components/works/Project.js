@@ -22,7 +22,7 @@ const portfolio = [
     description: "This portfolio is built using Next.js and TailwindCSS. The application is hosted on Vercel.",
     id: 1,
     tags: ["Next.js", "TailwindCSS", "Vercel", "Frontend"],
-    source: "https://www.github.com/emilsto/portfolio",
+    source: "https://www.github.com/emilsto/emilkantaneva.com",
     image : portfolioImage
   },
 ];
