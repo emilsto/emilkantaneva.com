@@ -6,7 +6,6 @@ import Image from "next/image";
 //array of work experience data
 const data = [
     {
-
         title: "Project worker",
         company: "Tampere Universities",
         description: "Helped to setup school lab for networking and security courses.",
@@ -48,8 +47,6 @@ const data = [
     },
 ];
 
-
-
 const WorkExp = () => {
     return (
         <div className="flex flex-col p-5">
@@ -61,7 +58,6 @@ const WorkExp = () => {
                 <div key={data.id} className="border-y py-2" >
                     <p className="py-2 text-xl font-bold">{data.title}, {data.company}</p>
                     <p className="py-2">{data.started} - {data.ended}</p>
-
                     <p className="py-2">{data.description}</p>
                 </div>
             ))}

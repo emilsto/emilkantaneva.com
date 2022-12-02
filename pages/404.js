@@ -5,7 +5,6 @@ import Navbar from '../components/navbar';
 const FourOhFour = () => {
     return (
         <div>
-        <Navbar> </Navbar>
         <div className="flex justify-center">
 
       <div className="">
