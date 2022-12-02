@@ -27,7 +27,7 @@ const data = [
     title: "IT Support person intern",
     company: "Tampere Universities",
     description:
-      "Helped students with IT related issues, such as setting up their computers, installing software, troubleshooting, and other IT related issues. Customer service, communication and general IT skills were required to succeed in this position.",
+      "Helped staff and students with IT related issues, such as setting up their computers, installing software, troubleshooting, and other IT related issues. Customer service, communication and general IT skills were required to succeed in this position.",
     started: "3.5.2021",
     ended: "31.8.2021",
     id: 1,

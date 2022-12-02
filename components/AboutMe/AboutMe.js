@@ -26,7 +26,7 @@ const AboutMe = () => {
           <div className="justify-center ">
    
                 <p className="md:text-2xl text-xl text-center">
-                  Web developer / <br></br> Engineering student /<br></br> IT enthusiast
+                  Web developer <br></br> Engineering student<br></br> IT enthusiast
                 </p>
           </div>
 
