@@ -6,7 +6,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Space Mono", monospace;
-  background-color: #E1C699;
+  background-color: #e1c699;
   color: #333333;
   scroll-behavior: smooth;
 }
@@ -23,4 +23,3 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-

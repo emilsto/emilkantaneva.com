@@ -16,7 +16,6 @@ module.exports = {
         "beige-g": "#E1C699",
         "dark-grey": "#333333",
       },
-
     },
   },
   plugins: [],

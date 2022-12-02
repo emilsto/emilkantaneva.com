@@ -1,46 +1,41 @@
 //Carousell component, shows a list of projects
 
 
+import portfolioImage from "../../images/portfolio.png";
+import winkuImage from "../../images/works/winku.png";
+import ProjectRender from "./ProjectRender";
 
-const Projects = [
-    {
-        title: "WinkuApp",
-        description: "Winku app is a social media application that allows users to create posts, follow other users and like posts. The application is built using React Native and Firebase. The application is currently in development.",  
-        id: 1,
-        tags : ["React", "Docker", "MySQL", "Node.js", "Express.js"],
-        source : "www.github.com/emilsivula/winkuapp",
-    },
-    {
-        title: "Portfolio",
-        description: "This portfolio is built using Next.js and Tailwind CSS. The portfolio is hosted on Vercel and the source code is available on Github.",
-        id: 2,
-        tags : ["Next.js", "Tailwind CSS", "Vercel"],
-        source : "www.github.com/emilsivula/emilkantaneva.com",
-    },
+const Winku = [
+  {
+    title: "WinkuApp",
+    description: "Winku app is a social media application that allows users to create posts, follow other users and like posts. The application is built using React with a NodeJS backend using MySQL database. It is a full CRUD application with authentication and authorization. The application is currently in development, and plans are to deploy backend to AWS and frontend to NGINX raspberry pi server.",
+    id: 3,
+    tags: ["React", "Docker", "MySQL", "Node.js", "Express.js", "Fullstack"],
+    source: "https://www.github.com/emilsto/winkuapp",
+    image : winkuImage
+  },
 ];
 
+const portfolio = [
+  {
+    title: "Portfolio",
+    description: "This portfolio is built using Next.js and TailwindCSS. The application is hosted on Vercel.",
+    id: 1,
+    tags: ["Next.js", "TailwindCSS", "Vercel", "Frontend"],
+    source: "https://www.github.com/emilsto/portfolio",
+    image : portfolioImage
+  },
+];
+
+
+
 const Project = () => {
-
-    return (
-        <div className="flex justify-center w-2/3">
-            <div className="flex flex-col max-w-xl">
-                {Projects.map((project) => (
-                    <div className="flex flex-col m-5" key={project.id}>
-                        <h1 className="bg-dark-grey text-4xl p-2 text-beige-g text-center">{project.title}</h1>
-                        <div className="flex flex-row">
-                            {project.tags.map((tag) => (
-                                <div className="flex flex-row m-2" key={tag}>
-                                    <p className="bg-dark-grey text-2xl p-2 text-beige-g text-center">{tag}</p>
-                                </div>
-                            ))}
-                        </div>
-                        <p className="text-l">{project.description}</p>
-                    </div>
-                ))}
-            </div>
-        </div>
-
-    );
-    };
+  return (
+    <div className="mx-2 md:max-w-3xl">
+    <ProjectRender Project={Winku}/>
+    <ProjectRender Project={portfolio}/>
+    </div>
+  );
+};
 
 export default Project;
