@@ -9,7 +9,7 @@ const Profile = () => {
       <p className="md:text-xl text-md font-bold mb-2">Software Engineering student</p>
       <p className="text-l">
         Im an aspiring full-stack web & software developer with a passion for
-        learning new things. Ive been developing software through out the length
+        learning new things. Ive been developing software throughout the length
         of my studies for 3 years and have worked with many different
         technologies. I have experience building everything from small brochure
         sites to complex, interactive CRUD sites with Node.js and ReactJS. Im
