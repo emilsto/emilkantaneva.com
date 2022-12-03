@@ -1,4 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
+
+
+import githublogo from "../images/github-dark.png";
 
 const Navbar = () => {
   return (
@@ -20,6 +24,15 @@ const Navbar = () => {
               <a>Resume</a>
             </Link>
           </div>
+          <div className="ml-5">
+            <Link href="https://www.github.com/emilsto">
+              <a target="_blank" rel="noopener noreferrer">
+                <Image src={githublogo
+                } alt="github logo" />
+              </a>
+            </Link>
+                </div>
+          
         </div>
       </div>
     </nav>
