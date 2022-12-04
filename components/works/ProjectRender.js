@@ -49,15 +49,18 @@ const ProjectRender = ( {Project} ) => {
  
               <p className="text-l text-left my-2">{project.description}</p>
                 <div className="grid border-2 border-dark-grey">
-              <Image src={project.image} alt="test" 
-                width={project.width}
-                height={project.height}
-                className=""
-                />
-                </div>
-      
-    
-            </div>
+                  { project.image ? (
+                          <Image src={project.image} alt="test" 
+                          width={project.width}
+                          height={project.height}
+                          className=""
+                          />
+                         
+                  ) : (
+                    null
+                  )}
+               </div>
+               </div>
           ))}
         </div>
       </div>

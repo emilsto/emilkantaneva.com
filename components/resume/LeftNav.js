@@ -17,7 +17,22 @@ import javabadge from "../../assets/java-badge.svg";
 import github from "../../images/github-dark.png";
 
 const LeftNav = () => {
+  const [isMobile, setIsMobile] = React.useState(false);
+
+  React.useEffect(() => {
+    if (window.innerWidth <= 768) {
+      setIsMobile(true);
+      console.log(isMobile);
+
+    }
+  }, [isMobile]);
+
+  //if mobile, display a hamburger menu
+  //if not mobile, display a list of links
+
+
   return (
+    
     <div className="flex flex-col md:mx-8 m-2">
         <Image
           src={EmilProfilePic}
@@ -61,7 +76,9 @@ const LeftNav = () => {
    
       </div>
     </div>
+  
   );
+
 };
 
 export default LeftNav;
