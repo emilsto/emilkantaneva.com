@@ -47,7 +47,7 @@ const ProjectRender = ( {Project} ) => {
                 )}
               </div>
  
-              <p className="text-l text-left">{project.description}</p>
+              <p className="text-l text-left my-2">{project.description}</p>
                 <div className="grid border-2 border-dark-grey">
               <Image src={project.image} alt="test" 
                 width={project.width}
