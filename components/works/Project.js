@@ -22,7 +22,7 @@ const Winku = [
 const PROJECT_BIRDNEST = [
   {
     title: "Project Birdnest",
-    description: "This is my solution to the pre-assignment for the Reaktor summer 2023 internship. Application built using React + TypeScript for the front-end and NodeJS + TypeScript for the back-end. It uses MongoDB as its database and is deployed on AWS. The live version can be accessed via the GitHub project page, atleast until the internship application period is over. Check out the github repository for more information about the project!",
+    description: "This is my solution to the pre-assignment for the Reaktor summer 2023 internship. In short, the task was to monitor no-fly-zone violations of drones in a 500x500 meter square, updating every 2 seconds, with a no-fly zone of 100 meter radius.   Application built using React + TypeScript for the front-end and NodeJS + TypeScript for the back-end. It uses MongoDB as its database and is deployed on AWS. The live version can be accessed via the GitHub project page, atleast until the internship application period is over. Check out the github repository for more information about the project!",
     id: 4,
     tags: ["TypeScript", "MongoDB", "React", "Node.js", "AWS", "Full Stack"],
     source: "https://www.github.com/emilsto/project-birdnest",
