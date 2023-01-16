@@ -3,7 +3,9 @@
 
 import portfolioImage from "../../images/portfolio.png";
 import winkuImage from "../../images/works/winku.png";
+import birdImage from "../../images/works/birdnest.png";
 import ProjectRender from "./ProjectRender";
+
 
 const Winku = [
   {
@@ -15,6 +17,19 @@ const Winku = [
     image : winkuImage
   },
 ];
+
+
+const PROJECT_BIRDNEST = [
+  {
+    title: "Project Birdnest",
+    description: "This is my solution to the pre-assignment for the Reaktor summer 2023 internship. Application built using React + TypeScript for the front-end and NodeJS + TypeScript for the back-end. It uses MongoDB as its database and is deployed on AWS. The live version can be accessed via the GitHub project page, atleast until the internship application period is over. Check out the github repository for more information about the project!",
+    id: 4,
+    tags: ["TypeScript", "MongoDB", "React", "Node.js", "AWS", "Full Stack"],
+    source: "https://www.github.com/emilsto/project-birdnest",
+    image : birdImage
+  },
+];
+
 
 const portfolio = [
   {
@@ -43,6 +58,7 @@ const myGithub = [
 const Project = () => {
   return (
     <div className="mx-2 md:max-w-3xl">
+    <ProjectRender Project={PROJECT_BIRDNEST}/>
     <ProjectRender Project={Winku}/>
     <ProjectRender Project={portfolio}/>
     <ProjectRender Project={myGithub}/>
